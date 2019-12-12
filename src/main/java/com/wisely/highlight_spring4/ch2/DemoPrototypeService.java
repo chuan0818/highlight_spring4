@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-@Scope("prototype") 
+@Scope("prototype")  //String value() default "singleton";
 public class DemoPrototypeService {
 
 }

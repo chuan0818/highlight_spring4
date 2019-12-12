@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 编写拦截规则的注解
+ * 编写拦截规则的注解(自定义注解)
  * @author zhuzc
  * @createDate 2018年12月2日
  */
