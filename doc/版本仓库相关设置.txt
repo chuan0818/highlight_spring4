@@ -42,9 +42,13 @@ git remote -v
 git remote rm origin
 https://chuan0818:密码@gitee.com/chuan0818/common-demo.git
 git remote add origin http://yourname:password@git.oschina.net/name/project.git
-git remote add origin https://github.com/chuan0818/common-demo.git  朱06
+git remote add origin https://github.com/chuan0818/common-demo.git  邮箱/朱06
 
 https://github.com/chuan0818/common-demo.git
 https://gitee.com/chuan0818/common-demo.git
+
+git clone https://github.com/chuan0818/highlight_spring4.git
+git remote add origin https://github.com/chuan0818/highlight_spring4.git
+
 
 如果git pull  https://xxx.git不能成功，则重新执行一遍 git config --global http.sslVerify false
