@@ -1,4 +1,4 @@
-#关联码云
+﻿#关联码云
 git remote add origin git@gitee.com:chuan0818/common-demo.git
 git push --set-upstream origin master
 
@@ -10,7 +10,10 @@ git push origin-aliyun master
 
 git push <远程主机名> <本地分支名>  <远程分支名> ，例如 git push origin master：refs/for/master 
 第一个master是本地分支名，第二个master是远程分支名。
+<<<<<<< HEAD
 
+=======
+>>>>>>> test
 
 ###################参考################################
 #连接自己的码云远程仓库
