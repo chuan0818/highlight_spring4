@@ -1,0 +1,50 @@
+#关联码云
+git remote add origin git@gitee.com:chuan0818/common-demo.git
+git push --set-upstream origin master
+
+
+#关联aliyun服务器
+git init --bare common-demo.git
+git remote add origin-aliyun zhuzc@114.215.156.234:/home/zhuzc/selfPrj/common-demo.git
+git push origin-aliyun master
+
+
+###################参考################################
+#连接自己的码云远程仓库
+git remote add origin git@gitee.com:chuan0818/csck.git
+git push --set-upstream origin master
+
+#连接自己的阿里云服务器git远程仓库
+git init --bare csck.git
+git remote add origin-aliyun zhuzc@114.215.156.234:/home/zhuzc/externPrj/csck.git
+git push origin-aliyun master
+
+git remote set-url origin-aliyun zhuzc@114.215.156.234:/home/zhuzc/externPrj/csck.git
+
+
+
+
+合并仓库报错：加上--allow-unrelated-histories参数
+git pull origin-mayun master --allow-unrelated-histories
+
+查看git远程仓库
+git remote show origin-mayun
+//重设置远程仓库地址 set-url  
+git remote set-url origin git@gitee.com:github-wjh/csckweb.git
+git remote add origin-aliyun zhuzc@114.215.156.234:/home/zhuzc/externPrj/csckweb.git
+git push origin-aliyun master
+
+https://xxx.git设置默认用户名和密码
+https://www.cnblogs.com/wish123/p/3937851.html
+https://chuan0818:密码@gitee.com/chuan0818/common-demo.git
+添加设置了用户名和密码的远程仓库
+git remote -v
+git remote rm origin
+https://chuan0818:密码@gitee.com/chuan0818/common-demo.git
+git remote add origin http://yourname:password@git.oschina.net/name/project.git
+git remote add origin https://github.com/chuan0818/common-demo.git  朱06
+
+https://github.com/chuan0818/common-demo.git
+https://gitee.com/chuan0818/common-demo.git
+
+如果git pull  https://xxx.git不能成功，则重新执行一遍 git config --global http.sslVerify false
